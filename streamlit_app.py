@@ -85,7 +85,7 @@ if prompt := st.chat_input("Welcome to the Ollama Chatbot! Ask me anything"):
             response_text = ""
             
             def catch_response(response):
-                nonlocal response_text  # Fixed: use nonlocal instead of global
+                global response_text  # Fixed: use nonlocal instead of global
                 for chunks in response:
                     response_text += chunks['message']['content']
                     yield chunks['message']['content']
