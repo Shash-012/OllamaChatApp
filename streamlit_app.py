@@ -1,6 +1,8 @@
 import streamlit as st
 import ollama
 
+st.title('QueryBuddy Chatbox')
+
 #Creates a session state to store messages
 #This allows the app to remember previous messages
 if 'messages' not in st.session_state:
