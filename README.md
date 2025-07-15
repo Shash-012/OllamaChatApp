@@ -1,4 +1,4 @@
-# QuerryBuddy Chatbox
+# 🤖 QuerryBuddy Chatbox
 A Streamlit-Powered Chatbot with Smart Conversations and Image Upload Support
 
 ## 📌 Overview
